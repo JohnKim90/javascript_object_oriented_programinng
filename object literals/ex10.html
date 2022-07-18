@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Objects LIterals</title>
+  </head>
+  <body>
+    <h1>Objects Literals ex10</h1>
+
+    <script>
+      // Object literals
+      var usernameseptember = {
+        email: "september@gmail.com",
+        name: "september",
+
+        loggedin() {
+          console.log(this.email, "username september has logged in");
+        },
+        loggedout() {
+          console.log(this.email, "username september has loggedout");
+        },
+      };
+      usernameseptember.loggedin();
+      usernameseptember.loggedout();
+    </script>
+  </body>
+</html>

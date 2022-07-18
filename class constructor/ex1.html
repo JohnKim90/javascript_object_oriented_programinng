@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>class constructor</title>
+  </head>
+  <body>
+    <h1>Objects Literals ex7</h1>
+
+    <script>
+      // Object literals
+      class User {
+        constructor(email, name) {
+          this.email = email;
+          this.name = name;
+        }
+      }
+
+      var userOne = new User("january@gmail.com,'january");
+      var userTwo = new User("febraury@gmail.com", "February");
+
+      console.log(userOne);
+      console.log(userTwo);
+    </script>
+  </body>
+</html>
